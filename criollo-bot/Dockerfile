@@ -1,4 +1,6 @@
-FROM oven/bun:1.3.10
+FROM node:23-slim
+
+RUN npm install -g bun
 
 WORKDIR /app
 
